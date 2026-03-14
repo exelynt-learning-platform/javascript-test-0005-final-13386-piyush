@@ -1,13 +1,13 @@
-let rows = 5;
+let n = 5;
 let num = 1;
 
-for (let i = 1; i <= rows; i++) {
-    let line = "";
-
+for (let i = 1; i <= n; i++) {
+    let row = "";
+    
     for (let j = 1; j <= i; j++) {
-        line += num + " ";
+        row += num + " ";
         num++;
     }
 
-    console.log(line);
+    console.log(row.trim());
 }
